@@ -258,3 +258,14 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+/* Styles for the email address and the icon */
+.email-link {
+    color: var(--secondary-text-color); /* Color for the email text */
+    text-decoration: none; /* Remove the underline from the link */
+  }
+  
+  /* Styling for the icon */
+  .email-link .fa-envelope {
+    margin-right: 5px; /* Add some spacing between the icon and the email text */
+    color: var(--secondary-text-color); /* Set the color for the icon */
+  }
