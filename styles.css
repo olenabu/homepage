@@ -173,7 +173,9 @@ body {
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
+    margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .experiences__company-header-durability {
@@ -181,6 +183,7 @@ body {
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
+    padding-left: 20px;
 }
 
 .experiences__company-header-name {
@@ -206,11 +209,14 @@ body {
 .experiences__company-project-name {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
+    text-align: left;
+    text-indent: 20px;
     padding-left: 20px;
 }
 
@@ -220,6 +226,7 @@ body {
 
 .additional-info__education {
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .additional-info__education-header {
